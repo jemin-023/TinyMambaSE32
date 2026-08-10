@@ -1,0 +1,25 @@
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Dataset audio files (avoid pushing gigabytes of audio to git)
+speech-noise-dataset/clean_speech/
+speech-noise-dataset/noisy_speech/
+speech-noise-dataset/noise_only/
+*.wav
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+
+# IDE & OS
+.DS_Store
+.idea/
+.vscode/
